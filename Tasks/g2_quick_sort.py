@@ -44,7 +44,7 @@ def sort(container: List[int]) -> List[int]:
             while container[j] > pivot:
                 j -= 1
 
-            if i <= j:# если i и j пересеклись - призводим обмен
+            if i <= j: # если i и j пересеклись - производим обмен
                 container[i], container[j] = container[j], container[i]
                 i += 1
                 j -= 1
